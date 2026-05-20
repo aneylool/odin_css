@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto; 
+    padding: 0 0;   
+    font-family: "Roboto";
+}
+
+nav{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0 50px;
+}
+
+nav h3{
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    color: white;
+    align-items: center;    
+}
+
+.main .text{
+    padding-top: 100px;
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+
+.main div h1{
+    width: 400px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.main div p{
+    margin: 10px 0 10px 0;
+    width: 450px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    border: 2px solid white;
+}
+
+#cheremsha{
+    height: auto;
+    width: 250px;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+}
+
+.flexes{
+    background-color: rgb(188, 221, 250);
+}
+
+.flexes h1{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+.flexs{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.flexs img{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.flexs p{
+    padding: 10px 0 50px 0;
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote_content{
+    width: 780px;
+}
+
+.quote_content h1{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 100px 0 10px 0;
+}
+
+.quote_content p{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    display: flex;
+    justify-content: right;
+    padding: 0 50px 50px 0;
+}
+
+.call{
+    background-color: rgb(188, 221, 250);
+    display: flex;
+    justify-content: center;
+}
+
+.call_frame{
+    width: 800px;
+    background-color: #3882F6;
+    margin: 75px 0 75px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.call_content{
+    color: white;
+    padding: 50px;
+}
+
+.call_content h1{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.call_btn{
+    padding: 50px;
+    margin: 10px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    padding: 50px;
+}
